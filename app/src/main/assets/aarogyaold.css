@@ -1,0 +1,44 @@
+/*
+Author: Aarogya.com
+Design by: Sandeep Bhakare
+In this CSS write existing aarogya CSS*/
+
+.float-left{float:left;margin:0 10px 10px 0;}
+.float-right{float:right;margin:0 0 10px 10px;}
+.caption{font-size:8pt;color:#A6A6A6; text-align:left;}
+.subtitle{color:#047499;font-size:120%;}
+.subtitle2{color:#a97401;font-size:100%;}
+.subtitle3{color:#380466;}
+
+ul.pagination-list{margin:15px 0;float:left;width:75%;}
+ul.pagination-list li{background:none;display:inline;margin:0;padding:0;overflow:hidden;}
+ul.pagination-list li span{padding:1px 3px;}
+ul.pagination-list a{padding:1px 4px;border:1px solid #ddd;background:#f7f7f7;color:#000;}
+ul.pagination-list a:hover,ul.pagination-list a:active,ul.pagination-list a:focus{border:1px solid #145077;text-decoration:none;background:#145077;color:#fff;}
+
+table.tint-box,.tint-box { 
+	width: 100%;
+	background: #fafafa;
+	border-collapse: collapse;
+	border: 1px solid #CCCCCC;
+	padding: 15px;
+	overflow: auto;
+}
+table.tint-box td { border:1px solid #CCCCCC; padding:5px!important; }
+
+.nest-l {
+  border: solid #d9d9d9;
+  border-width: 1px 0 1px 1px;
+  float: left;
+  margin: 5px 0;
+  background: #fff;
+}
+
+.nest-r {
+  border: solid #d9d9d9;
+  border-width: 1px 1px 1px 0;
+  float: left;
+  margin: 5px 0;
+  background: #fff;
+}
+

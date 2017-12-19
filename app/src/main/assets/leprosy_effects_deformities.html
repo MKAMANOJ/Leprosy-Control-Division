@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="jquery-3.2.1.min.js"></script>
+
+<script type="text/javascript">
+	$(function(){ /* to make sure the script runs after page load */
+
+    $('a.read_more').click(function(event){ /* find all a.read_more elements and bind the following code to them */
+
+        event.preventDefault(); /* prevent the a from changing the url */
+        $(this).parents('.item').find('.more_text').show(); /* show the .more_text span */
+        $(this).hide();	
+
+    });
+
+});
+</script>
+<style type="text/css">
+ .more_text{
+
+        display: none;
+
+    }
+
+</style>
+
+<link
+  href="bootstrap.min.css"
+  rel="stylesheet" media="screen">
+<link
+  href="bootstrap-theme.min.css"
+  rel="stylesheet" media="screen">
+<link
+  href="font-awesome.min.css"
+  rel="stylesheet" media="screen">
+
+<link href="aarogyaold.css" rel="stylesheet" media="screen">
+
+<link href="aarogya.css" rel="stylesheet" media="screen">
+   
+<link href="mediacss.css" rel="stylesheet" media="screen"> 
+</head>
+<body>
+
+<div class="item">
+	It is estimated that approximately 25% of patients who are not treated at an early stage of the disease, develop anesthesia and/or deformities of the hands and feet.<br />
+<br />
+<div style="width:123px;" class="float-left"><img src="images/nose-deformities.jpg" alt="Nose Deformities" title="Nose Deformities" width="123" height="90" border="0" /> <strong class="caption">Nose Deformities</strong></div>
+<strong class="subtitle">Deformities occurring in leprosy</strong><br />
+<strong class="subtitle2">Face Deformities</strong><br />
+Mask face, faces leonina, sagging face, lagophthaimos, loss of eye brows (supercilliary madorosis and eyelashes (ciliary madarosis), corneal ulcers and opacities, perforated nose, depressed nose, ear deformities, e.g. nodules on the ear and elongated lobules.<br />
+<br />
+<div style="width:123px;" class="float-right"><img src="images/hands-deformities.jpg" alt="Hands deformities" title="Hands deformities" width="123" height="82" border="0" /> <strong class="caption">Hands deformities</strong></div>
+<strong class="subtitle2">Hands Deformities</strong><br />
+Claw hand, wrist drop, ulcers, absorption of digits, thumb &ndash; web contracture, hollowing of the interossecus spaces and swollen hand.<br />
+
+<a href="#" class="read_more">Read More</a>
+ <div class="more_text"'>
+
+<br />
+<strong class="subtitle2">Feet Deformities</strong><br />
+Planter ulcer, foot drop, inversion of the foot, clawing of the toes, absorption of the toes, collapsed foot, swollen foot and callosities.<br />
+<br />
+  
+<strong class="subtitle">Other Deformities </strong><br />
+Gynecomastia and perforation of the palate.  All along it has commonly been believed that it is highly contagious and incurable.  Even today, in spite of scientific information available about leprosy, it is deeply rooted in the minds of most people at all levels of society, with the result that social ostracism is apparent everywhere. This has led patients to hide their early lesions, and thereby delay treatment just at the period when they could be most speedily cured.  Failure to appreciate the importance of the social and psychological factors has resulted in the failure of otherwise well conceived programs. 	</div>
+
+	
+</div>
+</body>
+</html>

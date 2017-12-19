@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="jquery-3.2.1.min.js"></script>
+
+<script type="text/javascript">
+	$(function(){ /* to make sure the script runs after page load */
+
+    $('a.read_more').click(function(event){ /* find all a.read_more elements and bind the following code to them */
+
+        event.preventDefault(); /* prevent the a from changing the url */
+        $(this).parents('.item').find('.more_text').show(); /* show the .more_text span */
+        $(this).hide();	
+
+    });
+
+});
+</script>
+<style type="text/css">
+ .more_text{
+
+        display: none;
+
+    }
+
+</style>
+
+<link
+  href="bootstrap.min.css"
+  rel="stylesheet" media="screen">
+<link
+  href="bootstrap-theme.min.css"
+  rel="stylesheet" media="screen">
+<link
+  href="font-awesome.min.css"
+  rel="stylesheet" media="screen">
+
+<link href="aarogyaold.css" rel="stylesheet" media="screen">
+
+<link href="aarogya.css" rel="stylesheet" media="screen">
+   
+<link href="mediacss.css" rel="stylesheet" media="screen"> 
+</head>
+<body>
+
+<div class="item">
+<strong class="subtitle">Multi &ndash; Drug Treatment (MDT) for PB Leprosy (Duration 6 months)</strong><br /><br />
+<table cellspacing="0" cellpadding="0" border="1" class="tint-box">
+  <tr>
+    <td colspan="4" valign="top"><strong class="subtitle2">Supervised Monthly Dosage</strong></td>
+  </tr>
+  <tr>
+    <td valign="top" width="18%"><strong>Drug</strong></td>
+    <td valign="top" width="23%"><strong>Adult</strong></td>
+    <td valign="top" width="29%"><strong>Children 10 to 14</strong></td>
+    <td valign="top" width="30%"><strong>Children above 10 years</strong></td>
+  </tr>
+  <tr>
+    <td valign="top" width="18%">Rifampicin</td>
+    <td valign="top" width="23%">600mg</td>
+    <td valign="top" width="29%">450mg</td>
+    <td valign="top" width="30%">300mg</td>
+  </tr>
+  <tr>
+    <td valign="top" width="18%">Dapson</td>
+    <td valign="top" width="23%">100mg</td>
+    <td valign="top" width="29%">50mg</td>
+    <td valign="top" width="30%">25mg</td>
+  </tr>
+  <tr>
+    <td colspan="4" valign="top"><strong class="subtitle2">Unsupervised Dosage</strong></td>
+  </tr>
+  <tr>
+    <td valign="top" width="18%">Dapsone</td>
+    <td valign="top" width="23%">100mg daily</td>
+    <td valign="top" width="29%">50mg daily</td>
+    <td valign="top" width="30%">25mgdaily</td>
+  </tr>
+</table>
+<br />
+<strong class="subtitle">Multi &ndash; Drug Treatment (MDT) for MB Leprosy (Duration 12 months)</strong><br /><br />
+<table cellspacing="0" cellpadding="0" border="1" class="tint-box">
+  <tr>
+    <td colspan="4" valign="top"><strong class="subtitle2">Supervised Monthly Dosage</strong></td>
+  </tr>
+  <tr>
+    <td valign="top" width="18%"><strong>Drug</strong></td>
+    <td valign="top" width="18%"><strong>Adult</strong></td>
+    <td valign="top" width="35%"><strong>Children 10 to 14</strong></td>
+    <td valign="top" width="29%"><strong>Children 6&ndash;9 years</strong></td>
+  </tr>
+  <tr>
+    <td valign="top" width="18%">Rifampicin</td>
+    <td valign="top" width="18%">600mg</td>
+    <td valign="top" width="35%">450mg</td>
+    <td valign="top" width="29%">300mg</td>
+  </tr>
+  <tr>
+    <td valign="top" width="18%">Clofazimine</td>
+    <td valign="top" width="18%">300mg</td>
+    <td valign="top" width="35%">150mg</td>
+    <td valign="top" width="29%">100mg</td>
+  </tr>
+  <tr>
+    <td valign="top" width="18%">Dapson</td>
+    <td valign="top" width="18%">100mg</td>
+    <td valign="top" width="35%">50mg</td>
+    <td valign="top" width="29%">25mg</td>
+  </tr>
+  <tr>
+    <td colspan="4" valign="top"><strong class="subtitle2">Daily Dosage</strong></td>
+  </tr>
+  <tr>
+    <td valign="top" width="18%">clofazimine</td>
+    <td valign="top" width="18%">50mg</td>
+    <td valign="top" width="35%">50mg alternate day</td>
+    <td valign="top" width="29%">50 mg twice week</td>
+  </tr>
+  <tr>
+    <td valign="top" width="18%">Dapsone</td>
+    <td valign="top" width="18%">100mg</td>
+    <td valign="top" width="35%">50mg daily</td>
+    <td valign="top" width="29%">25 mg daily</td>
+  </tr>
+</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">LCD</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="splash_welcome_title">Government of Nepal \n Ministry of Health \n Department
+        of Health Services</string>
+    <string name="splash_welcome_message">LEPROSY CONTROL DIVISION</string>
+
+    <string name="nav_header_title">Government of Nepal,
+        \nMinistry Of Health
+        \nDepartment of Health Services
+        \nLEPROSY CONTROL DIVISION</string>
+
+
+    <string name="action_about">About</string>
+    <string name="action_about_msg"> Copyright © 2016.\n
+        Leprosy Control Division,\n
+        Teku, Kathmandu.\n
+        All Rights Reserved.</string>
+    <string name="action_feedback">Feedback</string>
+
+    <string name="main_introduction">INTRODUCTION</string>
+    <string name="main_programs">PROGRAMS</string>
+    <string name="main_programs_leprosy_control">Leprosy Control</string>
+    <string name="main_programs_disability_prevention_and_rehabilitation">Disability Prevention and
+        Rehabilitation</string>
+    <string name="main_leprosy_effects">LEPROSY EFFECTS</string>
+    <string name="main_news">NEWS</string>
+    <string name="main_photo_gallery">PHOTO GALLERY</string>
+    <string name="main_staff_information">STAFF INFORMATION</string>
+    <string name="main_publications">PUBLICATIONS</string>
+    <string name="main_contact_us">CONTACT US</string>
+    <string name="main_director_message">DIRECTOR\'S MESSAGE</string>
+
+    <string name="nav_contact">Contact</string>
+    <string name="contact_details">LEPROSY CONTROL Division, \nDepartment of Health Services \nTeku, Kathmandu
+    </string>
+    <string name="contact_phone_telephone">Telephone No: +977 01-4262009, 4248535</string>
+    <string name="contact_fax"> Fax: +977 01 4248535</string>
+    <string name="contact_email">Email: lcd@mohp.gov.np, leprosycontrol@gmail.com</string>
+
+
+    <string name="empty_string">Will be available soon.</string>
+    <string name="downloading_resources">Downloading Resources</string>
+    <!-- Values relating Network -->
+    <string name="network_internet_connectivity">Please check your internet connection.</string>
+    <string name="server_error_title">Server Error</string>
+    <string name="unauthorized_error_tile">Unauthorized Error</string>
+    <string name="no_internet_connection_title">No internet Connection</string>
+    <string name="no_internet_connection_message">It appears that you do not have an active internet connection.
+    Please turn it on and try again. </string>
+    <string name="network_error_title">Network Error</string>
+    <string name="network_error_msg">Your internet connection is not working properly.
+        Please fix your internet connection first.</string>
+    <string name="fatal_error_title">Fatal Error</string>
+    <string name="client_error_title">Client Error</string>
+    <string name="client_error_msg">The Server failed to respond at the moment. Please try agin later.</string>
+    <string name="unexpected_response">Unexpected response </string>
+    <string name="error_msg">Sorry! Couldn\'t download the file at this moment. Try Again Later.</string>
+    <string name="tap_to_reload">Tap to reload</string>
+    <string name="btn_retry">Retry</string>
+    <string name="error_msg_timeout">The server took too long to respond</string>
+    <string name="error_msg_unknown">An unexpected error occurred</string>
+    <string name="network_error">Network Error</string>
+    <string name="no_internet_connection">Internet Connection was not found.</string>
+    <string name="ok">Ok</string>
+    <string name="please_wait">Please wait</string>
+    <string name="zero_news_title">Zero News</string>
+    <string name="zero_news">You have no news currently available.</string>
+
+
+    <string name="permission_necessary">Permission Required</string>
+    <string name="storage_permission_necessary">Storage Permission is necessary.</string>
+    <string name="storage_permission_denied">Storage Permission Denied.</string>
+    <string name="storage_permisson_onblocked">Storage Permission is not provided. Please provide
+        that permission through settings to use this feature.</string>
+    <string name="pdf_reader_required">Pdf Reader is necessary to view the file.</string>
+
+    <string name="director_message"><html><body style="text-align:justify">My pleasure knows no bounds to express a few words regarding the launch of official App of Leprosy Control Division. Digital and technological innovations today have helped bridge information gap between stakeholders and organizations. By virtue of the intensive infiltration of digital devices into our daily lives, we have radically altered how we communicate with one another and with our entire social network at once. I firmly believe our App will assist to catapult health system forward. As a result of technological know-how, we can be more competent at providing key information to various stakeholders with tremendous ease and reliability.
+\n\nThis App will acquaint all concerned regarding different aspects of Leprosy and public health undertakings of our organization. We will leave no stone unturned to keep this App updated and make you informed about Leprosy Control Division.
+\n\nThank you!
+\n\nMohammad Daud
+\n\nDirector</body></html></string>
+
+    <string name="gallery">Picture Gallery</string>
+    <string name="internet_connection_required">Internet Connection Required.</string>
+    <string name="must_connect_internet">You must connect to Internet at least once to fetch news.</string>
+    <string name="updated_at">Updated At:\t </string>
+    <string name="title_activity_leprosy__control">Leprosy_Control</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_leprosy_control">LeprosyControlActivity</string>
+    <string name="title_activity_disability_prevention_and_rehabilitation">
+        DisabilityPreventionAndRehabilitationActivity
+    </string>
+    <string name="no_email_program">You have no application that can send emails.</string>
+    <string name="no_phone_program">You have no program that can make phone calls.</string>
+    <string name="no_pdf_associated">No resource associated with this link.</string>
+</resources>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="jquery-3.2.1.min.js"></script>
+
+<script type="text/javascript">
+	$(function(){ /* to make sure the script runs after page load */
+
+    $('a.read_more').click(function(event){ /* find all a.read_more elements and bind the following code to them */
+
+        event.preventDefault(); /* prevent the a from changing the url */
+        $(this).parents('.item').find('.more_text').show(); /* show the .more_text span */
+        $(this).hide();	
+
+    });
+
+});
+</script>
+<style type="text/css">
+ .more_text{
+
+        display: none;
+
+    }
+
+</style>
+
+<link
+  href="bootstrap.min.css"
+  rel="stylesheet" media="screen">
+<link
+  href="bootstrap-theme.min.css"
+  rel="stylesheet" media="screen">
+<link
+  href="font-awesome.min.css"
+  rel="stylesheet" media="screen">
+
+<link href="aarogyaold.css" rel="stylesheet" media="screen">
+
+<link href="aarogya.css" rel="stylesheet" media="screen">
+   
+<link href="mediacss.css" rel="stylesheet" media="screen"> 
+</head>
+<body>
+
+<div class="item">
+<strong class="subtitle">Early case detection, management and disability prevention</strong><br />
+<ul>
+<li>Prevention of disease transmission and disability through early case detection and treatment, post exposure prophylaxis;</li>
+<li>Improve access to prompt and complete treatment including complication and reaction management; </li>
+<li>Increase awareness about leprosy in the community; reduce stigma and discrimination due to leprosy; </li>
+<li>Increase access leprosy services to unreached people/high risk populations.</li>
+<li>Prevention, early detection and enhancing access to health related rehabilitation services for all kind of disabilities ; </li>
+<li>Increase awareness about all types of disability through the community collaboration with existing service providers; </li>
+<li>Reduce stigma and discrimination in collaboration with other ministries;</li>
+</ul>
+
+<a href="#" class="read_more">Read More</a><br/>
+ <div class="more_text"'>
+<strong class="subtitle">Community based rehabilitation</strong></li>
+<ul>
+<li>Promote community activities focused on the health component of WHO CBR strategy, including health promotion, prevention, medical care, rehabilitation and assistive devices supply for people with disability including leprosy. </li>
+<li>Ensure the coordination with the other components of the CBR Strategy for sustainability and empowerment purposes based on the convention of the rights of people with disability.</li>
+</ul>
+
+<strong class="subtitle">REDUCE STIGMA AND DISCRIMINATION</strong><br />
+<ul>
+<li>Advocacy, awareness and IEC/BCC; involve people with disabilities including leprosy in policies and plans; </li>
+<li>Collaboration with national and district stakeholders for public awareness activities.</li>
+</ul>
+
+<strong class="subtitle">MONITORING AND EVALUATION</strong><br />
+<ul>
+<li>Case validation and data verification; follow-up the complications after release from treatment; </li>
+<li>Client satisfaction study; operational studies, Programme review and meetings. </li>
+<li>Ensure monitoring and evaluation of disability management and rehabilitation services at all levels.</li>
+</ul>
+
+<strong class="subtitle">CAPACITY BUILDING</strong><br />
+<ul>
+<li>Training and continued medical education to various categories of service providers on health promotion</li>
+<li>Disability prevention, impairment detection, medical and community based rehabilitation services for people with disability including leprosy.</li>
+</ul>
+</div>
+</body>
+</html>

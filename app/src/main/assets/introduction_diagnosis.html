@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="jquery-3.2.1.min.js"></script>
+
+<script type="text/javascript">
+	$(function(){ /* to make sure the script runs after page load */
+
+    $('a.read_more').click(function(event){ /* find all a.read_more elements and bind the following code to them */
+
+        event.preventDefault(); /* prevent the a from changing the url */
+        $(this).parents('.item').find('.more_text').show(); /* show the .more_text span */
+        $(this).hide();	
+
+    });
+
+});
+</script>
+<style type="text/css">
+ .more_text{
+
+        display: none;
+
+    }
+
+</style>
+
+<link
+  href="bootstrap.min.css"
+  rel="stylesheet" media="screen">
+<link
+  href="bootstrap-theme.min.css"
+  rel="stylesheet" media="screen">
+<link
+  href="font-awesome.min.css"
+  rel="stylesheet" media="screen">
+
+<link href="aarogyaold.css" rel="stylesheet" media="screen">
+
+<link href="aarogya.css" rel="stylesheet" media="screen">
+   
+<link href="mediacss.css" rel="stylesheet" media="screen"> 
+</head>
+<body>
+
+<div class="item">
+<strong class="subtitle">How is it Diagnosed?</strong><br />
+Based on presence of any one of the following Cardinal signs.<br /><br />
+<table cellpadding="0" cellspacing="0" border="1" class="tint-box">
+  <tr>
+    <td width="5%"><strong>Sr.  No</strong></td>
+    <td width="48%"><strong>Cardinal Signs of Leprosy</strong></td>
+    <td width="47%"><strong>Method of Eliciting</strong></td>
+  </tr>
+  <tr>
+    <td width="5%">1</td>
+    <td width="48%">Hypopigmented or reddish&nbsp; <br />
+      Skin lesion(s) with definite loss of sensation </td>
+    <td width="47%">Anaesthesia on the patch to be elicited by testing for touch, pain and temp. sensation</td>
+  </tr>
+  <tr>
+    <td width="5%">2</td>
+    <td width="48%">Thickening of peripheral nerves with loss of sensation and weakness of the muscles of the hands, feet or face</td>
+    <td width="47%">Examination of peripheral nerves e.g 1) Greater Auricular 2) Radial 3) Ulnar 4) Median 5) Lateral Popliteal 6) Posterior Tibial etc.</td>
+  </tr>
+  <tr>
+    <td width="5%">3</td>
+    <td width="48%">Demonstration of Mycobacterium Leprae (M.leprae) in the lesions</td>
+    <td width="47%">Acid fast staining and examination Under oil immersion microscope</td>
+  </tr>
+</table>
+<br />
+The first two cardinal signs can be identified by clinical examination alone while the third by examination of the slit skin smear under the microscope. Bacteriological examination has been discontinued in the programme.<br />
+<br />
+<strong class="subtitle">Pre&ndash;requisites of Good Clinical Examination</strong>
+<br />
+ <a href="#" class="read_more">Read More</a>
+  <div class="more_text"'>
+
+<ul>
+  <li> Assurance & counseling of patients and/or family.</li>
+  <li> Essentially in good daylight.</li>
+  <li> Exam. of whole body with courtesy & respect to patient's privacy.</li>
+  <li> Examination of female patient as far as possible by a female doctor or at least in the presence of one female.</li>
+</ul>
+<strong class="subtitle">Clinical Examination of Leprosy</strong>
+<ul>
+  <li>The location of skin lesions be marked on a simple body outline.</li>
+  <li>One or few typical skin lesions should be tested for loss of sensation.</li>
+  <li>The main peripheral nerve trunks should be palpated to certain any thickening and tenderness.</li>
+  <li>Eyes, hands and feet should be examined. </li>
+</ul>
+<strong class="subtitle">Field classification of leprosy for purpose of MDT</strong><br /><br />
+<table cellpadding="0" cellspacing="0" border="1" class="tint-box">
+  <tbody>
+    <tr align="center">
+      <td width="31%" align="left"><strong>Clinical Manifestation</strong></td>
+      <td width="34%" align="left"><strong>PB (Pauci&ndash;Bacilli)</strong></td>
+      <td width="35%" align="left"><strong>MB (Multi Bacillary)</strong></td>
+    </tr>
+    <tr align="center">
+      <td width="31%" align="left">Skin Lesion</td>
+      <td width="34%" align="left">Upto 5 lesion</td>
+      <td width="35%" align="left">6 and above</td>
+    </tr>
+    <tr align="center">
+      <td width="31%" align="left">Nerve involvement</td>
+      <td width="34%" align="left">No nerve involvement or only one                     nerve involvement</td>
+      <td width="35%" align="left">more than one nerve trunk involvement</td>
+    </tr>
+  </tbody>
+</table>  </div>
+
+	
+
+</div>
+</body>
+</html>

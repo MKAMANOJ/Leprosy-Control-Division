@@ -1,0 +1,302 @@
+@charset "utf-8";
+/* CSS Document
+Aarogya - The Wellness Site
+Website: www.aarogya.com
+ */
+@media (min-width:280px) and (max-width:369px){
+	/* .speBox a{
+		padding:24.3px;
+	} */
+	.v-cont{
+		display:none;
+	}
+	.v-img{margin-bottom:7%;}
+} 
+
+@media (min-width:300px) and (max-width:480px){
+	/* body{
+		font-size:150%;
+		line-height:1.6;
+	} */
+	.moduletable_aa_left ul li{
+		font-size:100%;
+	}
+	.left-toggle-menu{
+		background: #F5F5F5;
+		padding: 15px 7px;
+		border: 1px solid #CCC;
+		box-shadow: 1px 1px 1px 1px #F5F5F5;	
+		margin-bottom:0;
+		cursor:pointer;
+		background-image:url("/images/nav-tog-bt.png");
+		background-repeat: no-repeat;
+		background-position: 96%;
+	}
+	.moduletable_aa_left ul{
+		max-height: inherit;
+	}
+	.breadcrumb{
+		display:none;
+	}
+	#supportgroup{
+		overflow:auto;
+	}
+	.v-cont{
+		display:none;
+	}
+	.v-img{margin-bottom:7%;}
+	#supportgroup li{
+		width:50%;
+	}
+	#healthtips .healthtips-content{
+		margin-left:0;
+		padding:10px 10px;
+	}
+	.spe-sym{
+		margin-top:30px;
+	}
+	ul.speciality{
+		padding-right:0;
+	}
+	.query-box{
+		width:100%;
+		text-align:center;
+	}
+	.advertise{
+		display:none;
+	}
+	.aarogya-channel .modal-dialog{
+		width:99%;
+	} 
+	#tab_res ul{
+		margin-left:0;
+		width:100%;
+	}
+	#tab_res ul li{
+		width:100%;
+	} 
+	.alpha {
+		padding:15px;
+	}
+	#darkbg .moduletable-box{
+		margin-bottom:30px;
+	}
+	.carousel-caption h3{
+		display:none;
+	} 
+	.carousel-caption p{
+		width:85%;
+	}
+	#colorbox{
+		width:75%;
+	}
+} 
+
+@media (min-width:481px) and (max-width:640px) {
+	
+	.moduletable_aa_left ul{
+		max-height: inherit;
+	}
+	.left-toggle-menu{
+		background: #F5F5F5;
+		padding: 15px 7px;
+		border: 1px solid #CCC;
+		box-shadow: 1px 1px 1px 1px #F5F5F5;	
+		margin-bottom:0;
+		cursor:pointer;
+		background-image:url("/images/nav-tog-bt.png");
+		background-repeat: no-repeat;
+		background-position: 96%;
+	}
+	
+	#supportgroup{
+		overflow:auto;
+	}
+	.v-cont{
+		display:none;
+	}
+	.v-img{margin-bottom:7%;}
+	ul.speciality{
+		padding-right:0;
+	}
+	.spe-sym{
+		margin-top:30px;
+	}
+	.alpha {
+		padding:15px;
+	}
+	#tab_res ul{
+		width:100%;
+		margin-left:0;
+	}
+	#tab_res ul li{
+		width:50%;
+	}
+	#healthtips .healthtips-content{
+		padding: 15px 15px;
+		margin-left:0;
+	}
+	.query-box{
+		width:100%;
+		text-align:center;
+	}
+	.aarogya-channel .modal-dialog {
+		width: 90%;
+	}
+	#colorbox{
+		width:75%;
+	}
+}
+@media (min-width:280px) and (max-width:850px){
+	.aarogya_left {
+		margin-top: 30px;
+		position: inherit;
+	}
+	.aarogya_left a {
+		display: block;
+		width: 25%;
+		float: left;
+	}
+	.aarogya_left a:hover{
+		opacity: 0.6;
+		width:25%;
+	}
+	a.hide-menu{
+		display:none;
+	}
+}
+@media (min-width:641px) and (max-width:1023px) {
+	#darkbg .moduletable-box {
+	 	margin-bottom: 30px;
+	}
+	.spe-sym{
+		margin-top: 30px;
+	}
+	.alpha-bt {
+		padding: 6px;
+	}
+	.alpha {
+		font-size: 1em;
+		padding: 15px;
+	}
+	ul.speciality {
+		padding-right: 0;
+	}
+	#tab_res ul li{
+		width:33.33%;
+	}
+	#tab_res ul{
+		width:100%;
+		margin-left:0;
+	}
+	#tab_res ul #spe-msg {
+		width: 100%;
+	}
+	.aarogya-channel .modal-dialog {
+    	width: 75%;
+	}
+	 .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media (min-width:643px) and (max-width:767px){
+	.askdr-query{
+		width:100%;
+		text-align:center;
+	}	
+	#healthtips .healthtips-content {
+		padding:15px;
+	}	
+}
+@media (min-width:300px) and (max-width:991px){
+	.boxDisc{
+		position:relative;
+		height:auto;
+		overflow:auto;
+	}
+	#tab_res .list-inline > li, #tab_res .list-inline > li:first-child{
+		padding:0;
+	}
+}
+@media (min-width:300px) and (max-width:1023px){
+	
+	#quickbima #container {
+		width: 90%;
+		margin: 0px auto;
+	}
+	.aa-mobile-menu{
+		position: fixed;
+		background: #DC473B;
+		height:100%;
+		left:0;
+		width:250px;
+		padding-right: 0px;
+		z-index:99999;
+		overflow-y:scroll;
+	}
+	.custom .qinsurance{
+		overflow:auto;
+	}
+	.aa-mobile-menu .caret{
+		display:none;
+	}
+	.navbar-nav{
+		margin:0;
+	}
+	.navbar-inverse .navbar-nav > li > a {
+		border:none;
+		width:100%;
+	}
+	.aa-mobile-menu li ul.dropdown-menu{
+		display:none;
+		visibility:hidden;
+	}
+	.navbar-inverse .navbar-collapse{
+		border:none;
+	}
+	.custom .qinsurance{
+		overflow:auto;
+	}
+}
+
+@media (min-width:1024px) and (max-width:1200px) {
+
+	#supportgroup li {
+		min-height:142px;	
+	}
+	#supportgroup .content,
+	#supportgroup .vivah {
+    	font-size: 0.9em;
+	}
+	.alpha-bt {
+		padding: 6px;
+	}
+	.alpha {
+		font-size: 1em;
+	}
+	#tab_res ul #spe-msg {
+		width: 100%;
+	}
+}
+
+
+
+

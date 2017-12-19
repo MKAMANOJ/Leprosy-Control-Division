@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textColorPrimary">#009688</color>
+    <color name="textColorPrimaryInverse">#ff6977</color>
+
+    <color name="closeToSelected">#fcfbfb</color>
+    <color name="closeToWhite">#f9f7f7</color>
+
+    <color name="expandableList_even">#f5f3f3</color>
+    <color name="expandableList_odd">#e2e2e2</color>
+
+    <color name="black">#000000</color>
+    <color name="not_selected">#eeeeee</color>
+    <color name="selected">#dddddd</color>
+
+
+    <!--Text color for tabs-->
+    <color name="tab_Default_color">#A8A19E</color>
+    <color name="white">#FFFFFF</color>
+    <color name="singleGridBackgroundColor">#F6F6F4</color>
+</resources>

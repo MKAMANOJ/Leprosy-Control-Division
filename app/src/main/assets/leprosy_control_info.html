@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="jquery-3.2.1.min.js"></script>
+
+<script type="text/javascript">
+	$(function(){ /* to make sure the script runs after page load */
+
+    $('a.read_more').click(function(event){ /* find all a.read_more elements and bind the following code to them */
+
+        event.preventDefault(); /* prevent the a from changing the url */
+        $(this).parents('.item').find('.more_text').show(); /* show the .more_text span */
+        $(this).hide();	
+
+    });
+
+});
+</script>
+<style type="text/css">
+ .more_text{
+
+        display: none;
+
+    }
+
+</style>
+
+<link
+  href="bootstrap.min.css"
+  rel="stylesheet" media="screen">
+<link
+  href="bootstrap-theme.min.css"
+  rel="stylesheet" media="screen">
+<link
+  href="font-awesome.min.css"
+  rel="stylesheet" media="screen">
+
+<link href="aarogyaold.css" rel="stylesheet" media="screen">
+
+<link href="aarogya.css" rel="stylesheet" media="screen">
+   
+<link href="mediacss.css" rel="stylesheet" media="screen"> 
+</head>
+<body>
+
+<div class="item">
+
+            <p>Leprosy is a least infectious, stigmatizing and potentially disabling disease caused by Mycobaterium leprae. It is also known as Hansen disease. The disease may lead to physical disability if not treated promptly and completely.</p>
+<p>For ages, Leprosy was considered as one of the main public health problems in Nepal and existed here since time immemorial. Elimination and treatment of leprosy has always been a priority of the government&#8217;s plan and policy. Activities to control leprosy effectively started from 1960 onwards.According to a survey conducted in 1966, the estimated number of leprosy case was 1,00,000. Dapsone Monotherapy treatment was introduced as Pilot Project in the leprosy control programme and simultaneously the Multidrug Therapy (MDT) was also introduced in 1982/83 in few selected areas and hospital of the country which successfully reduced the leprosy cases to 21,537 with the registered prevalence rate of 21case per 10,000 population. Considering the seriousness of the disease, the vertical leprosy programme was an integrated with the general health services in 1987. MDT service was gradually expanded and by 1996, MDT coverage had extended to all 75 districts.</p>
+<p><strong> Following the continuous efforts</strong> from the government,
+
+<a href="#" class="read_more">Read More</a><br/>
+ <div class="more_text"'>
+Ministry of Health, Leprosy Control Division, WHO, district health/ public health office and concerned agencies, leprosy was eliminated at the national level in 2009 and declared so in 2010 with the registered prevalence rate of 0.77 case per 10,000 population. This rate is well below the cut-off point of below 1 per 10,000 population set by World Health Organization, to measure the elimination of leprosy as public health problem.</p>
+<p>At present, the registered prevalence has remained under cut-off line so far because of continuous capacity building and training to health professionals, active case search and early case detection campaign, free distribution and availability of drugs and dedicated health professionals and organizations involved in leprosy control programme at national level (PR=0.89), 54 districts (PR<1) and 6 districts with PR=0.
+
+Leprosy Control Division strived forward towards leprosy control with following vision, mission, goal, objectives and strategies.
+<br />
+<strong>Vision</strong><br />
+To make a leprosy-free society where there is no new leprosy case and all the needs of existing leprosy affected persons having been fully met.</p>
+<p><strong>Mission</strong><br />
+To provide accessible and acceptable cost effective quality leprosy services including rehabilitation and continue to provide such<br />
+services as long as and wherever needed.</p>
+<p><strong>Goal</strong><br />
+Reduce further burden of leprosy and to break channel of<br />
+transmission of leprosy from person to person by providing quality service to all affected community.</p>
+</div>
+</body>
+</html>

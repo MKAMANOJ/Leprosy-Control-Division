@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="jquery-3.2.1.min.js"></script>
+
+<script type="text/javascript">
+	$(function(){ /* to make sure the script runs after page load */
+
+    $('a.read_more').click(function(event){ /* find all a.read_more elements and bind the following code to them */
+
+        event.preventDefault(); /* prevent the a from changing the url */
+        $(this).parents('.item').find('.more_text').show(); /* show the .more_text span */
+        $(this).hide();	
+
+    });
+
+});
+</script>
+<style type="text/css">
+ .more_text{
+
+        display: none;
+
+    }
+
+</style>
+
+<link
+  href="bootstrap.min.css"
+  rel="stylesheet" media="screen">
+<link
+  href="bootstrap-theme.min.css"
+  rel="stylesheet" media="screen">
+<link
+  href="font-awesome.min.css"
+  rel="stylesheet" media="screen">
+
+<link href="aarogyaold.css" rel="stylesheet" media="screen">
+
+<link href="aarogya.css" rel="stylesheet" media="screen">
+   
+<link href="mediacss.css" rel="stylesheet" media="screen"> 
+</head>
+<body>
+
+<div class="item">
+Nearly 95 to 98% of the population have natural immunity and they will not get leprosy even if exposed to infection with M.leprae. Only a few healthy individuals develop signs of leprosy when they come in contact with patients who disseminate bacilli. The immunological status (resistance) varies from person to person and responds as follows when exposed to infection,
+<ol type="1">
+  <li>Natural resistance &ndash; No disease will occur.</li>
+  <li>High resistance &ndash; Localized disease (Tuberculoid).</li>
+  <li>Moderate &ndash; Disease fairly localized (Borderline Tuberculoid).</li>
+  <li>Low resistance &ndash; Fairly wide spread (Borderline Lepromatous).</li>
+  <li>No resistance &ndash; Wide spread disease (Lepromatous).</li>
+</ol>
+<strong class="subtitle">Signs &amp; Symptoms of Leprosy</strong><br />
+<strong class="subtitle2">Skin</strong>
+<ul>
+  <li>Hypopigmented or erythematous patch with definite loss of sensation to touch, pain and temp.</li>
+  <li>Shiny, oily smooth and oedematous appearance of the skin.</li>
+  <li>Nodules on a shiny skin</li>
+  <li>Thick earlobes</li>
+</ul>
+<strong class="subtitle2">Nerves</strong>
+<a href="#" class="read_more">Read More</a>
+ <div class="more_text"'>
+<ul>
+  <li>An area of numbness and/or tingling sensation in any area.</li>
+  <li>Weakness of small muscles of the hands and feet and/or presence of disability and deformity in hand or feet.</li>
+  <li>Thick and/or tender nerves.</li>
+</ul>
+<strong class="subtitle">Causative Agent of Leprosy</strong><br />
+Leprosy disease is caused by Micobacterium Leprae discovered in 1873 by Armauer Hansen in Norway. It is acid fast bacilli and on staining by Ziehl &ndash; Neelsen method the organism appears rod shaped and deep pink in colour. M. Leprae have revealed five properties which are of epidemiological importance
+<ol>
+  <li>Man is the known host.</li>
+  <li>Optimal growth of the organism occurs at 30&deg;C. This explains its predilection for the skin and upper respiratory track.</li>
+  <li>Stability: It remains viable outside the body for several days particularly under humid conditions.</li>
+  <li>Slow growth: The generation time of the organism is 12 to 14 days. Making it the slowest growing bacterial pathogen. This explains the prolonged incubation period and the protracted course of the illness.</li>
+  <li>Antigen city: It shares common antigenic determinants with many other micobacteria.</li>
+</ol>   
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/newsLastUpdated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:paddingEnd="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingStart="@dimen/activity_horizontal_margin"
+        android:paddingTop="4dp"
+        android:textAppearance="@android:style/TextAppearance.Holo.Small"
+        tools:text="Published On: 2017-09-26 11:18:15"/>
+
+    <TextView
+        android:id="@+id/newsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_pdf"
+        android:drawablePadding="@dimen/drawable_margin"
+        android:drawableRight="@drawable/ic_pdf"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        android:paddingBottom="4dp"
+        android:paddingEnd="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingStart="@dimen/activity_horizontal_margin"
+        android:paddingTop="4dp"
+        android:textAppearance="@android:style/TextAppearance.Holo.Widget.Button"
+        android:textSize="16sp"
+        tools:text="News Title"/>
+
+</LinearLayout>
